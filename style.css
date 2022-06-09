@@ -22,7 +22,7 @@
     position: relative;
     top: 130px;
     left: 580px;
-    animation: cactusMov 3s infinite linear;
+    animation: cactusMov 2s infinite linear;
 }
 @keyframes cactusMov {
     0% {
@@ -34,13 +34,22 @@
 }
 
 .jump {
-    animation: jump 1s easy;
+    animation: jump 0.5s linear;
 }
 @keyframes jump {
-    0%, 100% {
+    0% {
         top: 150px;
     }
+    30% {
+        top: 130px;
+    }
     50% {
-        top: 50px;
+        top: 110px;
+    }
+    80% {
+        top: 130px;
+    }
+    100% {
+        top: 150px;
     }
 }
