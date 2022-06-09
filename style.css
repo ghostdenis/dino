@@ -34,7 +34,7 @@
 }
 
 .jump {
-    animation: jump 1s easy;
+    animation: jump 1s ease;
 }
 @keyframes jump {
     0%, 100% {
